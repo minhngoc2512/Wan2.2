@@ -1,0 +1,11 @@
+ CUDA_VISIBLE_DEVICES=3 python ./wan/modules/animate/preprocess/preprocess_data.py \
+    --ckpt_path ./Wan2.2-Animate-14B/process_checkpoint \
+    --video_path ./examples/wan_animate/replace/video.mp4 \
+    --refer_path ./examples/wan_animate/replace/image.jpeg \
+    --save_path ./examples/wan_animate/replace/process_results \
+    --resolution_area 1280 720 \
+    --iterations 3 \
+    --k 7 \
+    --w_len 1 \
+    --h_len 1 \
+    --replace_flag

@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+.vscode*
+tmp_examples*
+new_checkpoint*
+batch_test*
+nohup*
+.venv
+Wan2.2-Animate-14B
+examples/wan_animate/animate/process_results/*
+examples/wan_animate/replace/process_results/*

@@ -1,0 +1,1 @@
+  CUDA_VISIBLE_DEVICES=3   python generate.py --task animate-14B --ckpt_dir ./Wan2.2-Animate-14B/ --src_root_path ./examples/wan_animate/replace/process_results/ --refert_num 1 --replace_flag --use_relighting_lora 
